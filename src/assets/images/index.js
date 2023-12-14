@@ -1,15 +1,13 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
+import awsp from './awsp.png'
+import codecademy from './codecademy.png'
+import freecodecamp from './freecodecamp.png'
+import millionlights from './millionlights.jpeg'
+import uni from './uni.png'
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    awsp,
+    codecademy,
+    freecodecamp,
+    millionlights,
+    uni,
 }

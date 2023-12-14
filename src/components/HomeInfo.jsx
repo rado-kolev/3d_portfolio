@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { arrow } from '../assets/icons'
+import { arrow } from '../assets/icons';
 
 const InfoBox = ({ text, link, btnText }) => {
   return (
@@ -11,18 +11,22 @@ const InfoBox = ({ text, link, btnText }) => {
       </Link>
     </div>
   );
-}
+};
 
 const renderContent = {
   1: (
-    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-      Hi, I am <span className='font-semibold'>Rado</span>👋
-      <br />A Front-end Developer
-    </h1>
+    <div className='neo-brutalism-blue py-4 px-8 text-white text-center'>
+      <h1 className='sm:text-xl sm:leading-snug mx-5'>
+        👋 Hi, I am <span className='font-semibold'>Rado</span>
+        <br />A Front-end Developer
+      </h1>
+      <br />
+      <h3>Feel free to explore The Island</h3>
+    </div>
   ),
   2: (
     <InfoBox
-      text='I Know That Good Site Means Good Business'
+      text='I Know That a Good Site Means Good Business'
       link='/about'
       btnText='Learn More'
     />
@@ -43,9 +47,8 @@ const renderContent = {
   ),
 };
 
-
 const HomeInfo = ({ currentStage }) => {
   return renderContent[currentStage] || null;
-}
+};
 
-export default HomeInfo
+export default HomeInfo;
