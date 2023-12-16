@@ -78,7 +78,6 @@ const Contact = () => {
         <form
           className='flex flex-col w-full gap-7 mt-14'
           onSubmit={handleSubmit}
-          netlify
         >
           <label className='text-black-500 font-semibold'>
             Name

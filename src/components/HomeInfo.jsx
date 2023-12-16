@@ -21,7 +21,7 @@ const renderContent = {
         <br />A Front-end Developer
       </h1>
       <br />
-      <h3>Feel free to explore The Island</h3>
+      <h3>&#8678; Feel free to explore The Island &#8680;</h3>
     </div>
   ),
   2: (
