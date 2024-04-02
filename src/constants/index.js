@@ -9,11 +9,13 @@ import {
   aws,
   azure,
   bootstrap,
+  brainwave,
   css,
   firebase,
   git,
   github,
   googlecloud,
+  gym,
   html,
   javascript,
   mui,
@@ -21,6 +23,7 @@ import {
   react,
   sanity,
   sass,
+  snap,
   tableau,
   tailwindcss,
   vercel,
@@ -205,6 +208,33 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: brainwave,
+    theme: 'btn-back-brainwave',
+    name: 'Brainwave AI',
+    description:
+      'Brainwave AI - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles.',
+    gitlink: 'https://github.com/rado-kolev/brainwave',
+    link: 'https://brainwave-ai-app.web.app',
+  },
+  {
+    iconUrl: snap,
+    theme: 'btn-back-snap',
+    name: 'Snap_It',
+    description:
+      'Snap_It is a fun and interactive Instagram clone that allows users to share and explore photos.',
+    gitlink: 'https://github.com/rado-kolev/snap_it',
+    link: 'https://snap-it-app.vercel.app',
+  },
+  {
+    iconUrl: gym,
+    theme: 'btn-back-lab',
+    name: 'The Shapify Lab',
+    description:
+      'A web app with a variety of exercises, showcasing GIFs for different body parts and equipment - the Shapifier for your body.',
+    gitlink: 'https://github.com/rado-kolev/the_shapify_lab',
+    link: 'https://the-shapify-lab.web.app',
+  },
   {
     iconUrl: videopool,
     theme: 'btn-back-red',

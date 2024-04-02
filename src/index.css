@@ -114,6 +114,18 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 16px 0 40px #e4e4e4;
 }
 
+.block-container .btn-back-brainwave {
+  background: linear-gradient(135deg, #00FF00 -20%, #FFC876 120%);
+}
+
+.block-container .btn-back-lab {
+  background: linear-gradient(135deg, #077df1 -20%, #ff9d00 120%);
+}
+
+.block-container .btn-back-snap {
+  background: linear-gradient(135deg, #5D5FEF -20%, #877EFF 120%);
+}
+
 .block-container .btn-back-red {
   background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
 }

@@ -1,11 +1,13 @@
 import aws from './aws.svg';
 import azure from './azure.svg';
 import bootstrap from './bootstrap.svg';
+import brainwave from './brainwave-symbol-white.svg';
 import css from './css.svg';
 import firebase from './firebase.svg';
 import git from './git.svg';
 import github from './github.svg';
 import googlecloud from './google-cloud.svg';
+import gym from './gym.svg'
 import html from './html.svg';
 import javascript from './javascript.svg';
 import mui from './mui.svg';
@@ -13,6 +15,7 @@ import netlify from './netlify.svg';
 import react from './react.svg';
 import sanity from './sanity.svg';
 import sass from './sass.svg';
+import snap from './snap.png';
 import tableau from './tableau.svg';
 import tailwindcss from './tailwindcss.svg';
 import vercel from './vercel.svg';
@@ -36,11 +39,13 @@ export {
     aws,
     azure,
     bootstrap,
+    brainwave,
     css,
     firebase,
     git,
     github,
     googlecloud,
+    gym,
     html,
     javascript,
     mui,
@@ -48,6 +53,7 @@ export {
     react,
     sanity,
     sass,
+    snap,
     tableau,
     tailwindcss,
     vercel,
