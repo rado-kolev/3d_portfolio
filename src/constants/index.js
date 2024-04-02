@@ -6,11 +6,13 @@ import {
   uni,
 } from '../assets/images';
 import {
+  appwrite,
   aws,
   azure,
   bootstrap,
   brainwave,
   css,
+  disney,
   firebase,
   git,
   github,
@@ -20,6 +22,7 @@ import {
   javascript,
   mui,
   netlify,
+  npm,
   react,
   sanity,
   sass,
@@ -27,6 +30,7 @@ import {
   tableau,
   tailwindcss,
   vercel,
+  vite,
   virtualbox,
   travelpool,
   nike,
@@ -40,6 +44,11 @@ import {
 } from '../assets/icons';
 
 export const skills = [
+  {
+    imageUrl: appwrite,
+    name: 'Appwrite',
+    type: 'Backend',
+  },
   {
     imageUrl: aws,
     name: 'AWS',
@@ -101,6 +110,11 @@ export const skills = [
     type: 'Backend',
   },
   {
+    imageUrl: npm,
+    name: 'npm',
+    type: 'Packet manager',
+  },
+  {
     imageUrl: react,
     name: 'React',
     type: 'Frontend',
@@ -129,6 +143,11 @@ export const skills = [
     imageUrl: vercel,
     name: 'Vercel',
     type: 'Backend',
+  },
+  {
+    imageUrl: vite,
+    name: 'Vte',
+    type: 'Frontend dev tool',
   },
   {
     imageUrl: virtualbox,
@@ -243,6 +262,15 @@ export const projects = [
       'A practice project mimicking a YouTube-like website, fetching and displaying videos from an API.',
     gitlink: 'https://github.com/rado-kolev/video-pool',
     link: 'https://the-video-pool.vercel.app',
+  },
+  {
+    iconUrl: disney,
+    theme: 'btn-back-disney',
+    name: 'Disney+',
+    description:
+      'A Disney+ clone, developed using React.js, Styled-components, Redux Toolkit, React Slick and Appwrite.',
+    gitlink: 'https://github.com/rado-kolev/disney_plus',
+    link: 'https://disney-p1us-c1one.web.app',
   },
   {
     iconUrl: travelpool,

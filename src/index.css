@@ -114,6 +114,10 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 16px 0 40px #e4e4e4;
 }
 
+.block-container .btn-back-disney {
+  background: linear-gradient(135deg, #ffffff -20%, #fc03f0 120%);
+}
+
 .block-container .btn-back-brainwave {
   background: linear-gradient(135deg, #00FF00 -20%, #FFC876 120%);
 }

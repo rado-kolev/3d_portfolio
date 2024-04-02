@@ -79,10 +79,11 @@ const Contact = () => {
           className='flex flex-col w-full gap-7 mt-14'
           onSubmit={handleSubmit}
         >
-          <label className='text-black-500 font-semibold'>
+          <label htmlFor='name' className='text-black-500 font-semibold'>
             Name
             <input
               type='text'
+              id='name'
               name='name'
               className='input'
               placeholder='Enter Your Name'
@@ -93,10 +94,11 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className='text-black-500 font-semibold'>
+          <label htmlFor='email' className='text-black-500 font-semibold'>
             Email
             <input
               type='email'
+              id='email'
               name='email'
               className='input'
               placeholder='name@email.com'
@@ -107,9 +109,10 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className='text-black-500 font-semibold'>
+          <label htmlFor='message' className='text-black-500 font-semibold'>
             Your Message
             <textarea
+              id='message'
               name='message'
               rows={4}
               className='textarea'
@@ -127,6 +130,7 @@ const Contact = () => {
             disabled={isLoading}
             onFocus={handleFocus}
             onBlur={handleBlur}
+            aria-label={isLoading ? 'Sending...' : 'Send Message'}
           >
             {isLoading ? 'Sending...' : 'Send Message'}
           </button>
@@ -147,6 +151,7 @@ const Contact = () => {
           <Suspense fallback={<Loader />}>
             <Fox
               currentAnimation={currentAnimation}
+              description='3D Fox model'
               position={[0.5, 0.35, 0]}
               rotation={[12.6, -0.6, 0]}
               scale={[0.5, 0.5, 0.5]}

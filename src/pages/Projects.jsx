@@ -38,7 +38,7 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
-              <div className='mt-5 flex items-center gap-12 font-poppins'>
+              <div className='mt-6 flex flex-col sm:flex-row lg:flex-col sm:items-center lg:items-start gap-4 sm:gap-12 lg:gap-4 font-poppins'>
                 <div className='flex items-center gap-2'>
                   <Link
                     to={project.gitlink}
@@ -46,7 +46,7 @@ const Projects = () => {
                     rel='noopener noreferrer'
                     className='font-semibold text-blue-600'
                   >
-                    GitHub Link
+                    View Source Code on GitHub
                   </Link>
                   <img
                     src={arrow}
@@ -61,7 +61,7 @@ const Projects = () => {
                     rel='noopener noreferrer'
                     className='font-semibold text-blue-600'
                   >
-                    Live Link
+                    View Live Demo
                   </Link>
                   <img
                     src={arrow}
